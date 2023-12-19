@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compgraph"
+authors = [
+    {name = "Murad Shikhaev", email = "murad.shikhaev@gmail.com"},
+]
+version = "1.0"
+description = "Package compgraph"
+readme = "LIB_README.md"
+requires-python = ">=3.10"
+keywords = ["compgraph"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+[project.scripts]
+run-inverted-index = "compgraph.examples.run_inverted_index:main"
+run_pmi = "compgraph.examples.run_pmi:main"
+run-word-count= "compgraph.examples.run_word_count:main"
+run-yandex-maps = "compgraph.examples.run_yandex_maps:main"

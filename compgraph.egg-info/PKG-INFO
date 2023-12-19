@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: compgraph
+Version: 1.0
+Summary: Package compgraph
+Author-email: Murad Shikhaev <murad.shikhaev@gmail.com>
+License: MIT License
+Keywords: compgraph
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Compgraph
+
+Данная библиотека реализует парадигму Map/Reduce в виде вычислительного графа. 
+При помощи него можно отделить описание последовательности операций от их выполнения.
+
+## Необходимые библиотеки
+
+Для работы тестов и скриптов необходимы библитеки:
+
+    pip install pytest версии==7.4.0
+    pip install click==8.1.7
+
+## С чего можно начать
+
+Библиотеку можно установить командой 
+    
+    pip install -e compgraph --force-reinstall. 
+
+В ней уже реализованы 4 задачи при помощи вычислительного графа. 
+Попробовать их можно выполнив соответствующие скрипты.
+
+
+## Запуск тестов
+
+Для вычислительного графа были написаны тесты, в файле tests.
+Тесты на потребление памяти, при выполнение задач, а так же на корректность. 
+Запустить все тесты мжной командой 
+
+    pytest compgraph
+
+
+### Sample Tests
+
+Explain what these tests test and why
+
+    Give an example
+
+### Style test
+
+Checks if the best practices and the right coding style has been used.
+
+    Give an example
+
+## Deployment
+
+Add additional notes to deploy this on a live system
+
+## Built With
+
+  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
+    for the Code of Conduct
+  - [Creative Commons](https://creativecommons.org/) - Used to choose
+    the license
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
+of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
+available, see the [tags on this
+repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+
+## Authors
+
+  - **Billie Thompson** - *Provided README Template* -
+    [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of
+[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
+who participated in this project.
+
+## License
+
+This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
+Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
+details
+
+## Acknowledgments
+
+  - Hat tip to anyone whose code is used
+  - Inspiration
+  - etc

@@ -1,0 +1,5 @@
+[console_scripts]
+run-inverted-index = compgraph.examples.run_inverted_index:main
+run-word-count = compgraph.examples.run_word_count:main
+run-yandex-maps = compgraph.examples.run_yandex_maps:main
+run_pmi = compgraph.examples.run_pmi:main
